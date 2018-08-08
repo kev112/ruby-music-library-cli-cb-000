@@ -21,12 +21,12 @@ class MusicLibraryController
       case input
       when 'list songs'
         list_songs
+      when 'list artist'
+        list_songs_by_artist
+      when 'list genres'
+        list_songs_by_genre
       when 'list'
-        
-      when 'list'
-        
-      when 'list'
-        
+        list_
       when 'list'
         
       when 'list'
@@ -101,4 +101,4 @@ class MusicLibraryController
       puts "Playing #{song.name} by #{song.artist.name}"
     end
   end
-end     
+end       
