@@ -29,8 +29,8 @@ class MusicLibraryController
         list_artists
       when 'list genres'
         list_genres
-      when 'list'
-        
+      when 'play song'
+        play_song
       end
     end
   end
@@ -101,4 +101,4 @@ class MusicLibraryController
       puts "Playing #{song.name} by #{song.artist.name}"
     end
   end
-end       
+end         
