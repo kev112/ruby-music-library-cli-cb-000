@@ -18,6 +18,20 @@ class MusicLibraryController
       puts "What would you like to do?"
       
       input = gets.strip
+      case input
+      when 'list songs'
+        list_songs
+      when 'list'
+        
+      when 'list'
+        
+      when 'list'
+        
+      when 'list'
+        
+      when 'list'
+        
+      end
     end
   end
   
